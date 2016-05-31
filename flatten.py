@@ -6,7 +6,9 @@ from util import *
 
 # Flatten the right-down list into just a right list (i.e. a linked list)
 def flatten(head):
-    pass  # TODO write some code here
+    # TODO write some code here
+    # For now, we just return the original
+    return head
 
 if __name__ == '__main__':
     # This will verify it works...
