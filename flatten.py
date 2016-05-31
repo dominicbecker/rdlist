@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from node import node
 from util import *
 

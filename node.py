@@ -11,4 +11,4 @@ class node:
     def __repr__(self):
         dr = repr(self.down)
         rr = repr(self.right)
-        return 'node(%s, %s, %s)' % (self.data, dr, rr)
+        return 'node(%s, down=%s, right=%s)' % (self.data, dr, rr)

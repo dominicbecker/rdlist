@@ -8,11 +8,13 @@ def verify_res(n, num):
 
 def test(fn):
     sm = fn(sample.SIMPLE)
+    print sm
     print_res(sm)
     verify_res(sm, 3)
     print 'simple ok\n'
 
     cp = fn(sample.COMPLEX)
+    print cp
     print_res(cp)
     verify_res(cp, 10)
     print 'complex ok'
